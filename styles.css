@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+
+    --font-outfit: "Outfit", sans-serif;
+}
+
+@layer base {
+    body {
+        background-color: var(--color-slate-300);
+    }
+}
+
+.text-preset-1 {
+    @apply font-outfit font-bold text-[22px] leading-[120%] tracking-normal
+}
+
+.text-preset-2 {
+    @apply font-outfit font-normal text-[15px] leading-[140%] tracking-[0.2px]
+}
