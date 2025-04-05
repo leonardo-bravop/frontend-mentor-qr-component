@@ -12,6 +12,10 @@
     body {
         @apply bg-slate-300 flex flex-col justify-between h-lvh
     }
+
+    a {
+        @apply text-[#2C7DFA]
+    }
 }
 
 .text-preset-1 {
